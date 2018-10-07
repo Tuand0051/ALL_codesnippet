@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="exercise.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:exercise"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="Beige">
+        <TextBlock Text="Messenger" Height="40" Width="200" Margin="20" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="Blue" FontSize="30" />
+        <TextBox x:Name="btn_content"  Height="40" Width="300" VerticalAlignment="top" HorizontalAlignment="Left"  Margin="160,20" />
+        <TextBlock Text="Holleword" x:Name="txt_content" Height="100" Width="3000" Margin="100" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="red" FontSize="40" SelectionChanged="txt_content_SelectionChanged" />
+        <Button Content="ClickMe" Margin="470,20" VerticalAlignment="Top" Height="40" Width="100" Background="Green" Click="Button_click" />
+    </Grid>
+</Page>
